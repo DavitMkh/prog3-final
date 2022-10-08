@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/socket.io/socket.io.js"></script>
+    
+</head>
+    
+<body>
+    <div class="main">
+         <li class="but">
+            <button class="button" onclick="addGrass()">Add grass</button>
+        </li>
+        <li class="but">
+            <button class="button" onclick="addGrassEater()">Add grass eater</button>
+        </li>        
+        <li class="but">
+            <button class="button" onclick="addPredator()">Add predator</button>
+        </li>    
+        <li class="but">
+            <button class="button" onclick="addHuman()">Add human</button>
+        </li>
+        <li class="but">
+            <button class="button" onclick="addGargona()">Add gargona</button>
+        </li>
+    </div>
+
+    
+    </div>
+    <div class="buttons">
+       <style>
+        body{
+            
+            background-image: linear-gradient(to bottom right, red, rgb(0, 217, 255));
+            height: 100%;
+        }
+        .button{
+            background-color: #ced6a1;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            display: inline-flex;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 20px;
+           
+        }
+        .but{
+            display: inline-block;
+            margin-left: 20px;
+         
+        }
+       
+    </style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
